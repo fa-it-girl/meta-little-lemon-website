@@ -1,0 +1,152 @@
+body{
+    background-color: lemonchiffon;
+}
+
+.container img{
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+
+h1{
+    color: orange;
+    margin: 70px;
+    text-shadow: 5px 10px 50px yellow;
+    font-style: italic;
+    
+}
+
+.container{
+    margin-left: 600px;
+}
+.topnav{
+    background-color: yellow;
+    margin: 40px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 130px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .off{
+    background: url(https://i.ibb.co/dK9CDBm/pasta2.jpg) no-repeat;
+    height: 200px;
+    margin: 40px;
+    width: 95%;
+  }
+
+  .off h2{
+    margin: 50px 100px 0px 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: maroon;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .off p{
+    margin: 50px;
+    text-align: right;
+    margin-right: 100px;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 40px;
+    column-gap: 80px;
+  }
+
+
+  .nestedgrid {
+    background-color: lightyellow;
+    border: 1px solid orange;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+
+  
+ 
+  .nestedgrid h2{
+    text-align: center;
+    font-style: italic;
+    color: orange;
+    font-size: 30px;
+  }
+
+
+  .nestedgrid img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nestedgrid:hover{
+    background-color: chocolate;
+  }
+  
+  .nestedgrid p{
+     color: orange;
+     font-weight: 30px;
+     font-style: italic;
+  }
+
+  .nestedgrid a{
+    font-size: small;
+  }
+  
+  .nestedgrid a:link{
+    color: blue;
+  }
+
+  .nestedgrid a:visited{
+    color:black
+  }
+
+  .nestedgrid a:hover{
+    color: maroon
+  }
+
+  .nestedgrid a:active{
+    color: green;
+  }
+  
+  
+  .copy{
+    text-align: right;
+    margin-right: 40px;
+  }
+
+  hr{
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+
+ .menuimage{
+    object-fit: cover;
+ }
+
+ .about p{
+    text-align: left;
+    margin:0px 30px 0px 30px;
+
+ }
+
+ .book{
+    margin: 30px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
